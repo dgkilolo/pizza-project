@@ -1,0 +1,14 @@
+/* body { 
+  background-image: url(../images/pizza-maker.jpg);
+  background-size:cover ;
+  }  */
+.jumbotron {
+  background-image: url(../images/tentHeading.png);    
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: px;
+}
+.jumbotron h1 {
+  padding-top: 50px;
+}
