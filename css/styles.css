@@ -1,5 +1,5 @@
  body { 
-  background-image: url(../images/pizza-maker.jpg);
+  background-image: url(../images/flavours.jpg);
   background-size:cover ;
   }  
 .jumbotron {
@@ -35,4 +35,14 @@
   height: auto;
   background-position: center;
   background-size: cover;
+}
+.order {  
+  background-image: url(../images/pizza-maker.jpg); 
+  background-size: cover; 
+}
+.align  {
+  text-align: center;
+}
+.delivery {
+  display: none;
 }
