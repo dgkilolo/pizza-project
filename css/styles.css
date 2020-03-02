@@ -11,6 +11,11 @@
 }
 .jumbotron h1 {
   padding-top: 50px;
+  font-size: 60px;
+  font-family: 'Gloria Hallelujah', sans-serif;
+}
+.jumbotron p {
+  font-family: 'Orbitron',cursive;
 }
 #picture1 {  
   color: white;
@@ -45,4 +50,10 @@
 }
 .delivery {
   display: none;
+}
+.menu {
+  font-family: 'Gloria Hallelujah', sans-serif ;
+}
+.order {
+  font-family: 'Special Elite',cursive;
 }
