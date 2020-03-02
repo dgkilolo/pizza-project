@@ -12,11 +12,27 @@
 .jumbotron h1 {
   padding-top: 50px;
 }
-#picture1 {
+#picture1 {  
   color: white;
-  border: solid white 5px;
+  border: solid white 4px;
   background-image: url(../images/beefy.jpg);
-  height: 200px;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+#picture2 {  
+  color: black;
+  border: solid white 4px;
+  background-image: url(../images/chicken.jpg);
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+#picture3 {
+  color: white;
+  border: solid white 4px;
+  background-image: url(../images/pepperoni.jpg);
+  height: auto;
   background-position: center;
   background-size: cover;
 }
