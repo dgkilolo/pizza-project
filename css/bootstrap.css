@@ -2203,6 +2203,7 @@ textarea.form-control {
   position: relative;
   display: block;
   padding-left: 1.25rem;
+  padding-right: 10px;
 }
 
 .form-check-input {
