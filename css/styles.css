@@ -1,7 +1,7 @@
-/* body { 
+ body { 
   background-image: url(../images/pizza-maker.jpg);
   background-size:cover ;
-  }  */
+  }  
 .jumbotron {
   background-image: url(../images/tentHeading.png);    
   background-size: cover;
@@ -11,4 +11,12 @@
 }
 .jumbotron h1 {
   padding-top: 50px;
+}
+#picture1 {
+  color: white;
+  border: solid white 5px;
+  background-image: url(../images/beefy.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
 }
