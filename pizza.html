@@ -16,19 +16,19 @@
       <div class="menu">
         <div class="row">
           <div class="col-md-4" id="picture1">
-            <p class="pizzaName"><strong>Meatzaa</strong></p>
+            <p id="pizzaName"><strong>Meatzaa</strong></p>
             <form>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Size</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option><span class="size">Large</span> 1200/=</option>
-                  <option><span class="size">Medium</span>  800/=</option>
-                  <option><span class="size">Small</span>  600/=</option>                  
+                <select class="form-control" id="sizes1">
+                  <option>Large 1200/=</option>
+                  <option>Medium 800/= </option>
+                  <option>Small 600/=</option>                  
                 </select>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Crust</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="crust1">
                   <option>Thin crust  20/=</option>
                   <option>Deep crust  50/=</option>
                   <option>Stuffed crust  100/=</option>                  
@@ -149,11 +149,12 @@
           <h3>Checkout</h3>
           <button id="order" class="btn btn-primary"  type="submit" id="submit" >Order</button>
           <p><strong>Your Order:</strong></p>        
-          <p class="type"></p>          
+          <div id="yourOrder"></div>        
           <p><strong>Total:</strong></p>
         </div>
         <button id="delivery" class="btn-primary" >Delivery</button> 
         <div class="delivery">
+          <p>Delivery cost:100/=</p>
           <div class="col-md-6">
           <form onkeydown="handle">            
             <div class="form-group">
@@ -163,6 +164,7 @@
           </form>
           </div>
         </div>
+        <button id="confirm" class="btn-primary" >Confirm order</button>
       </div>
     </div>
   </body>
