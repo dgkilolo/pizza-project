@@ -6,8 +6,7 @@
   background-image: url(../images/tentHeading.png);    
   background-size: cover;
   color: white;
-  text-align: center;
-  padding-top: px;
+  text-align: center; 
 }
 .jumbotron h1 {
   padding-top: 50px;
