@@ -1,7 +1,8 @@
 $(document).ready(function() {
  
-  $('#delivery').click(function() {
+  $('#delivery').click(function(listen) {
     $('.delivery').toggle(); 
+    var deliveryCost = 100;
 
     
   });
@@ -29,29 +30,36 @@ $(document).ready(function() {
     } else {
       var crustCost = 200;
     }
-        
+
     $("#yourTotal").text(sizeCost+crustCost+"ksh")
     alert(sizeCost+crustCost)
 
-  });
+  
 
-  $('#confirm').click(function() {    
+  $('#confirm').click(function() {  
+    
+    $('.finalTotal').show(); 
+    
     var confirm =$("#inputAddress").val();   
     alert("Your pizza will be delivered to " + confirm);  
+
+    $("#finalTotal").text(sizeCost+crustCost+100+"ksh")
+
+    
   });
 
+  });
 
-  $("yourOrder").text(yourOrder)
-
+  
 
   
   
 
-  function handle(event) {
-    //event.preventDefault();
-    var delivery = document.getElementById("exampleFormControlSelect1")
-    alert("Your pizza will be delivered to " + delivery )
-  }
+  // function handle(event) {
+  //   //event.preventDefault();
+  //   var delivery = document.getElementById("exampleFormControlSelect1")
+  //   alert("Your pizza will be delivered to " + delivery )
+  // }
   
 
 
