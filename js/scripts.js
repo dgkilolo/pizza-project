@@ -25,8 +25,7 @@ $(document).ready(function() {
     } else {
       var crustCost = 200;
     }
-    $("#yourTotal").text(sizeCost+crustCost+toppingCost+"ksh")
-    alert(sizeCost+crustCost)
+    $("#yourTotal").text(sizeCost+crustCost+toppingCost+"ksh")    
   $('#confirm').click(function() {     
     $('.finalTotal').show();     
     var confirm =$("#inputAddress").val();   

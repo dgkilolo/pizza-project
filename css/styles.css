@@ -1,5 +1,5 @@
  body { 
-  background-image: url(../images/flavours.jpg);
+  background-image: url(../images/material.jpg);
   background-size:cover ;
   }  
 .jumbotron {
@@ -19,7 +19,7 @@
 }
 #picture1 {  
   color: white;
-  border: solid white 4px;
+  border: solid black 4px;
   background-image: url(../images/beefy.jpg);
   height: auto;
   background-position: center;
@@ -27,7 +27,7 @@
 }
 #picture2 {  
   color: white;
-  border: solid white 4px;
+  border: solid black 4px;
   background-image: url(../images/chicken22.jpg);
   height: auto;
   background-position: center;
@@ -35,7 +35,7 @@
 }
 #picture3 {
   color: white;
-  border: solid white 4px;
+  border: solid black 4px;
   background-image: url(../images/pepperoni.jpg);
   height: auto;
   background-position: center;
@@ -45,12 +45,16 @@
   background-image: url(../images/pizza-maker.jpg); 
   background-size: cover; 
   background-position-y: 750px;
+  height: 550px;
+  border: solid black 4px;
 }
 .align  {
   text-align: center;
 }
 .delivery {
   display: none;
+  color: whitesmoke;
+  padding-left: 10px;
 }
 .menu {
   font-weight: 700;
@@ -64,8 +68,21 @@
   color: whitesmoke;
   font-size: 50px;
   font-weight: 900;
-  display: none;
+  display: none;  
 }
 .confirmButton {
   text-align: center;
+}
+#yourOrder, #yourTotal {
+  color: whitesmoke;
+  font-size: 23px;
+}
+#finalTotal {
+  background-color: tomato;
+}
+#pizzaName {
+  font-size: 30px;
+}
+#picture2 {
+  color: black;
 }
