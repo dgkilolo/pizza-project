@@ -1,5 +1,4 @@
 $(document).ready(function() { 
-
   
   $('#delivery').click(function(listen) {
     $('.delivery').toggle(); 
