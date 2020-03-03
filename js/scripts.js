@@ -1,5 +1,4 @@
-$(document).ready(function() { 
-  
+$(document).ready(function() {   
   $('#delivery').click(function(listen) {
     $('.delivery').toggle(); 
     var deliveryCost = 100;    
