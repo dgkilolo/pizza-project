@@ -1,4 +1,6 @@
 $(document).ready(function() { 
+
+  jgjgjjjgj
   $('#delivery').click(function(listen) {
     $('.delivery').toggle(); 
     var deliveryCost = 100;    
